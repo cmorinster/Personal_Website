@@ -145,7 +145,10 @@ h1{
 .linkButton{
     width: 20%;
     text-decoration: none;
-    margin-left:1%
+    margin-left:1%;
+    white-space: nowrap;
+    overflow: hidden;
+
 
 }
 
@@ -158,9 +161,17 @@ h1{
         font-size: 18px;
     }
     .linkButton{
-        width: 45%;
+        width: 30%;
         margin-left:0.8%;
-        text-decoration: none;
     
     }
+}
+@media only screen and (max-width: 767px) {
+
+    .linkButton{
+        width: 45%;
+        margin-left:0.8%;
+    
+    }
+
 }
