@@ -12,6 +12,10 @@ export default function Contact() {
                 </a>
 
       </div>
+      <div className="row m-5">
+        
+
+      </div>
     </div>
   )
 }

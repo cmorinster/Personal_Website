@@ -114,9 +114,10 @@ export default function Work() {
 
 
             </form>
-            {pitch&&
+            {pitch?
             <p>{pitch}</p>
- 
+            :
+            <p>Whats the hot new App Pitch?</p>
             }
 
         </div>
