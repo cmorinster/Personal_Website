@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import Chris from '../images/Chris_Morin1.jpeg'
+import Chris from '../images/Chris_Morin2.png'
 
 
 import { OpenAI } from "openai";
