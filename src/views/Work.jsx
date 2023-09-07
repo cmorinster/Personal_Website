@@ -86,21 +86,28 @@ export default function Work() {
       </div>
       <div className="row projectsDiv mt-5 leftMargin">
         <h1>My Projects</h1>
-        <div className="card cardDiv">
+        <a href="https://www.roboartrumble.com" className='cardDiv'>
+        <div className="card">
+            
             <img src={Robo} alt='RoboArt Rumble' className='cardImg'></img>
             <div className="card-body">
                 <h5 className='projectInfo'>Fun AI Art Web Game</h5>
                 <h5 className='projectTitle'>RoboArt Rumble</h5>
             </div>
+            
         </div>
-        <div className="card cardDiv">
+        </a>
+        <a href="https://github.com/cmorinster" className='cardDiv'>
+        <div className="card">
             <img src={GitHub} alt='Git Hub Profile' className='cardImg'></img>
             <div className="card-body">
                 <h5 className='projectInfo'>Other Projects</h5>
                 <h5 className='projectTitle'>Github</h5>
             </div>
         </div>
+        </a>
       </div>
+    
       <div className="row">
         <div className="col mt-5 leftMargin">
             <h1>What's my next project?</h1>
