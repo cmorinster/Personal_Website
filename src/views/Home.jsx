@@ -37,7 +37,7 @@ export default function Home() {
             
             <div className="col-12 col-lg-6 mt-5 p-5">
                 <h1>👋 Hello I'm Chris Morin</h1>
-                <h5 className='marginsTop'>I'm a newly graduated software engineer with a background in Quality Assurance and a passion for problem-solving challenges. I'm excited to leverage my diverse skills to create impactful software solutions. When not coding, I enjoy hiking, playing with artificial intelligence, and performing comedy at the Improv Asylum in Boston.<br></br><br></br>Have fun on the site playing with my favorite API from OpenAI. An API that let's you get creative using the of power of artificial intelligence! <br></br><br></br>And remember to give the API a few moments to load, the tiny robots are doing their best!</h5>
+                <h5 className='marginsTop'>I'm a newly graduated software engineer with a background in Quality Assurance and a passion for problem-solving challenges. I'm excited to leverage my diverse skills to create impactful software solutions. When not coding, I enjoy hiking, playing with artificial intelligence, and performing comedy at the Improv Asylum in Boston.<br></br><br></br>Have fun on the site playing with my favorite API from OpenAI. An API that let's you get creative using the power of artificial intelligence! <br></br><br></br>And remember to give the API a few moments to load, the tiny robots are doing their best!</h5>
             </div>
             
             <div className="col-12 col-lg-6 mt-5">
