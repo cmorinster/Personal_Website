@@ -149,6 +149,8 @@ h1{
     white-space: nowrap;
     overflow: hidden;
 
+    font-weight: 700;
+
 
 }
 
@@ -170,6 +172,16 @@ h1{
 
     .linkButton{
         width: 45%;
+        margin-left:0.8%;
+    
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+    .linkButton{
+        width: 55%;
         margin-left:0.8%;
     
     }
