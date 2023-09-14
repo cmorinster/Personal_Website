@@ -24,7 +24,7 @@ export default function Home() {
     
    
     await openai.images.generate({
-        prompt: `A photo image of a ${creature} floating through space with a vibrant picture of space in the background.`,
+        prompt: `A photo image of a ${creature} wearing a beanie hat floating through space with a vibrant picture of space in the background.`,
         })
     .then((data)=> {
     setAnimal(data['data'][0]['url'])
